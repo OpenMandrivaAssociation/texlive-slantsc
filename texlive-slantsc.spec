@@ -55,6 +55,7 @@ is needed to define font shapes such as 'scsl' or 'scit'.).
 %doc %{_texmfdistdir}/source/latex/slantsc/Makefile
 %doc %{_texmfdistdir}/source/latex/slantsc/slantsc.dtx
 %doc %{_texmfdistdir}/source/latex/slantsc/slantsc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,3 +66,5 @@ is needed to define font shapes such as 'scsl' or 'scit'.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
