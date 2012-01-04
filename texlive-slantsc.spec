@@ -6,7 +6,7 @@
 # catalog-version 2.10
 Name:		texlive-slantsc
 Version:	2.10
-Release:	1
+Release:	2
 Summary:	Access different-shaped small-caps fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/slantsc
