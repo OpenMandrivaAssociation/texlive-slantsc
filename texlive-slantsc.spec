@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25007
 # category Package
 # catalog-ctan /macros/latex/contrib/slantsc
-# catalog-date 2008-11-25 08:48:49 +0100
+# catalog-date 2012-01-02 14:24:13 +0100
 # catalog-license lppl
-# catalog-version 2.10
+# catalog-version 2.11
 Name:		texlive-slantsc
-Version:	2.10
-Release:	2
+Version:	2.11
+Release:	1
 Summary:	Access different-shaped small-caps fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/slantsc
@@ -36,13 +36,13 @@ is needed to define font shapes such as 'scsl' or 'scit'.).
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/tex/latex/slantsc/slantsc.sty
+%doc %{_texmfdistdir}/doc/latex/slantsc/ChangeLog
+%doc %{_texmfdistdir}/doc/latex/slantsc/Makefile
 %doc %{_texmfdistdir}/doc/latex/slantsc/README
 %doc %{_texmfdistdir}/doc/latex/slantsc/getversion.tex
 %doc %{_texmfdistdir}/doc/latex/slantsc/slantsc.pdf
-%doc %{_texmfdistdir}/doc/latex/slantsc/slantsc.xml
 %doc %{_texmfdistdir}/doc/latex/slantsc/testslantsc.tex
 #- source
-%doc %{_texmfdistdir}/source/latex/slantsc/Makefile
 %doc %{_texmfdistdir}/source/latex/slantsc/slantsc.dtx
 %doc %{_texmfdistdir}/source/latex/slantsc/slantsc.ins
 
