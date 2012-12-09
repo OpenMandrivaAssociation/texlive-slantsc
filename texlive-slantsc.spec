@@ -55,3 +55,21 @@ is needed to define font shapes such as 'scsl' or 'scit'.).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.11-1
++ Revision: 759066
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.10-2
++ Revision: 756068
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.10-1
++ Revision: 719550
+- texlive-slantsc
+- texlive-slantsc
+- texlive-slantsc
+- texlive-slantsc
+
