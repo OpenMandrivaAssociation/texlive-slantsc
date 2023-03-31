@@ -1,6 +1,6 @@
 Name:		texlive-slantsc
 Version:	25007
-Release:	1
+Release:	2
 Summary:	Access different-shaped small-caps fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/slantsc
