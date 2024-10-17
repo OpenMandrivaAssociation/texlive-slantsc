@@ -3,7 +3,7 @@ Version:	25007
 Release:	2
 Summary:	Access different-shaped small-caps fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/slantsc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/slantsc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/slantsc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/slantsc.doc.r%{version}.tar.xz
